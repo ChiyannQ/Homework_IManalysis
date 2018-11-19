@@ -1,9 +1,4 @@
 
-% Ziyang Qiu
-% medical faculty ,mannheim
-% Biomedical Engineering
-% 3565830
-
 % read
 Img = imread('rice.png');
 

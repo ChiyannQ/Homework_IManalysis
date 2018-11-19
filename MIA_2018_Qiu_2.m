@@ -1,9 +1,5 @@
 
 
-%Name: Ziyang Qiu
-%faculty: medical faculty,Mannheim
-%discipline: Biomedical Engineering
-%student number: 3565830
 
 %read
 filename = 'CT-MONO2-16-ankle.dcm'

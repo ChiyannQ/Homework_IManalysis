@@ -1,0 +1,40 @@
+
+
+
+% Skeleton
+
+BW = imread('text.png');
+
+%morphological operation to detect the letter 'y'
+
+% https://ww2.mathworks.cn/help/images/ref/bwskel.html
+% https://ww2.mathworks.cn/help/images/morphological-filtering.html
+
+% https://ww2.mathworks.cn/help/images/ref/strel.html
+
+
+nhood = [0 0 0 0 0 0
+	 1 1 0 0 0 0
+	 0 0 1 0 0 0
+	 0 0 0 1 1 1
+	 0 0 1 0 1 1
+	 1 1 0 0 0 0
+	 0 0 0 0 0 0  	];
+
+%erosion
+SE = strel('arbitrary',nhood);
+SE = strel('square',);
+BW2 = bwhitmiss(BW,SE1,SE2);
+
+%filling
+
+
+out = bwskel(BW2);
+
+%______________________________________________________________
+
+
+
+
+% 27
+I = 
